@@ -1,4 +1,4 @@
-# Code Wishes — Lyrics Typewriter Player
+# Lyrics Typewriter Player
 
 A small Python script that downloads a YouTube track locally (audio only), starts playback at a chosen offset, and displays synced lyrics with a typewriter effect. Playback and lyrics stay in sync even when you pause/resume, and you can nudge lyric timing live.
 
@@ -34,5 +34,5 @@ The script downloads the song (ignored by git) to the project folder as `song.mp
 
 ## Notes
 - Media files like `song.mp3` are excluded via `.gitignore` so the repo stays lightweight.
-- You can change the YouTube URL or the start time in `wishes_code.py`.
+- You can change the YouTube URL or the start time in `songs_code.py`.
 - If you want to include the audio in the repo, remove the relevant patterns from `.gitignore`.
