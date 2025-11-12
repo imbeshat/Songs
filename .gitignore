@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.pyd
+*.egg*
+pip-wheel-metadata/
+build/
+dist/
+.venv/
+.env
+.env.*
+
+# Tools & caches
+.pytest_cache/
+.mypy_cache/
+coverage.*
+*.coverage
+*.cover
+htmlcov/
+.cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Project artifacts (media & downloads)
+song.*
+*.mp3
+*.wav
+*.webm
+*.m4a
+*.part
+*.temp
+*.tmp
+*.ytdl
+*.ytdl.temp
+*.info.json
