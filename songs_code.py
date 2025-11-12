@@ -113,7 +113,7 @@ lyrics = [
     (48.9, "Ye Duniya Janay Mera Darad Tujhe Ye Nazar Kyu Ata Nahi"),
     (53.8, "Soneya Yu Tera Sharmana Meri Jaan Na Lele"),
     (58.7, "Kaan Ke Peechy Zulf Chupana Meri Jan Kya Kehnay"),
-    (103, "Zalima Toba Tera Nakhra Iske War Kya Kehne"),
+    (62, "Zalima Toba Tera Nakhra Iske War Kya Kehne"),
     (27, "Tham Ky Bethe Dil Ko Ghayal Kaheen Har Na Bethein"),
     (27, "Teri Nazrien Mujhsy Kya Kehti Hen"),
     (27, "Inme Wafa Bethi Hay"),
@@ -160,7 +160,8 @@ def show_lyrics():
             if pos + lyric_offset >= cue_time:
                 # Type so the last character lands exactly at the next cue.
                 if idx + 1 < total:
-                    char_delay = 0.12
+                    next_cue = lyrics[idx + 1][0]
+                    char_delay = max(0.03, (next_cue - cue_time) / max(len(text), 1))
                 else:
                     # Last line: use a reasonable default
                     char_delay = 0.12
