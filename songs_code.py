@@ -105,7 +105,7 @@ lyrics = [
     (26.8, "Ghar Nahi Jata Mein Bahar"),
     (29, "Rehta Tera Intazar"),
     (31.2, "Mere, Khwabon Mein Aa Na"),
-    (33.4, "Kakry Sola Singhaar"),
+    (33.4, "Karkay Sola Singhaar"),
     (35.8, "Mein Ab Kyu Hosh Mein Ata Ni"),
     (37.9, "Sukoon Ye Dil Kyu Pata Ni"),
     (40.1, "Kyu Toru Khud Say Jo Thy Wade Jay Ab Ye Ishaq Nibahana Nahi"),
@@ -128,7 +128,7 @@ lyrics = [
     (27, "Ghar Nahi Jata Mein Bahar"),
     (27, "Rehta Tera Intazar"),
     (27, "Mere, Khwabon Mein Aa Na"),
-    (27, "Kakry Sola Singhaar")
+    (27, "Karkay Sola Singhaar")
 ]
 
 lyric_offset = 0.0  # allow fine-tuning in real time
