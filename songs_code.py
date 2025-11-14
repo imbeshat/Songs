@@ -120,7 +120,7 @@ lyrics = [
     (78, "Thori Thori Si Razi Thori Si Khafa Rehti Hein"),
     (81.7, "Log Hein Zalim Barey"),
     (84.4, "Inme Jafa Dekhi Hay"),
-    (87, "Ye Duniya Teri Nahi Maine Tunjmay Haya Dekhi Hay"),
+    (87, "Ye Duniya Teri Nahi Maine Tujmay Haya Dekhi Hay"),
     (91.4, "Jeena Muhal"),
     (93.2, "Mera Tere Bina"),
     (95, "Ye Sarey Nashe Bekaar"),
