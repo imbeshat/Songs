@@ -9,7 +9,7 @@ import imageio_ffmpeg
 
 
 # ------------------ LOAD LYRICS FROM JSON ------------------
-def load_lyrics(path="lyrics.json"):
+def load_lyrics(path="lyrics_kashish.json"):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     # Convert into list of tuples: (time, text)
@@ -146,10 +146,10 @@ def show_lyrics(lyrics):
 
 # ------------------ MAIN ------------------
 if __name__ == "__main__":
-    url = "https://www.youtube.com/watch?v=8of5w7RgcTc"
+    url = "https://www.youtube.com/watch?v=Db_s0IdsbEc"
 
     # Load lyrics from JSON (no hardcoded list)
-    lyrics = load_lyrics("lyrics.json")
+    lyrics = load_lyrics("lyrics_kashish.json")
 
     # Download MP3 if missing
     if not os.path.exists("song.mp3"):
