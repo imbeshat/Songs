@@ -148,7 +148,7 @@ def show_lyrics(lyrics):
 if __name__ == "__main__":
     url = "https://www.youtube.com/watch?v=Db_s0IdsbEc"
 
-    # Load lyrics from JSON (no hardcoded list)
+    # Load lyrics from JSON
     lyrics = load_lyrics("lyrics_kashish.json")
 
     # Download MP3 if missing
