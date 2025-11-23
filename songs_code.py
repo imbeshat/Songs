@@ -131,9 +131,10 @@ def show_lyrics(lyrics):
         target = min(target, len(text))
 
         while typed_idx < target and not stop_flag.is_set():
-            sys.stdout.write(text[typed_idx])
+            sys.stdout.write(f"\033[32m{text[typed_idx]}\033[0m")  # GREEN character
             sys.stdout.flush()
             typed_idx += 1
+
 
         if typed_idx >= len(text):
             sys.stdout.write("\n")
