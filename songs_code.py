@@ -158,6 +158,7 @@ if __name__ == "__main__":
     pygame.mixer.init(frequency=44100)
     pygame.mixer.music.load("song.mp3")
 
+    print("Music Player\n")
     pygame.mixer.music.play()
 
     threading.Thread(target=input_controls, daemon=True).start()
