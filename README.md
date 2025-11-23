@@ -27,7 +27,7 @@ pip install -U pip yt-dlp imageio-ffmpeg pygame
 
 ## Run
 ```bash
-.venv/bin/python wishes_code.py
+.venv/bin/python songs_code.py
 ```
 
 The script downloads the song (ignored by git) to the project folder as `song.mp3` and then plays it. Lyrics appear in a typewriter style, synced to the music. Use `[` and `]` to fine‑tune lyric timing.
